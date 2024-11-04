@@ -17,7 +17,7 @@ import img9 from '../../assets/connect.jpeg'
 import slide1 from '../../assets/slide1.jpg'
 import slide2 from '../../assets/slide2.jpg'
 import slide3 from '../../assets/slide3.jpg'
-import slide4 from '../../assets/slide4.jpg'
+import slide4 from '../../assets/slider4.jpg'
 
 import { Link } from 'react-router-dom';
 import { FacebookOutlined, XOutlined, InstagramOutlined, YoutubeOutlined } from '@ant-design/icons';
@@ -157,7 +157,7 @@ const HomeConatiner = () => {
             <img src={slide3} />
           </div>
           <div>
-            <img src={slid4} />
+            <img src={slide4} />
           </div>
 
         </Carousel>
