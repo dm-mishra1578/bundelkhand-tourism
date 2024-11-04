@@ -1,7 +1,7 @@
 import React from 'react'
 import BandaGalary from '../../../destiantion/banda/BandaGalary'
 
-const Banda = () => {
+const BandaPage = () => {
   return (
     <div>
       <BandaGalary />
@@ -9,4 +9,4 @@ const Banda = () => {
   )
 }
 
-export default Banda
+export default BandaPage

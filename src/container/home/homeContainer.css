@@ -1,0 +1,494 @@
+body {
+    overflow-x: hidden;
+}
+
+.crousel img {
+    height: 100%;
+    width: 100%;
+}
+
+.important-event {
+    position: relative;
+    height: 650px;
+    width: 100%;
+    background-color: #e149ae;
+    
+    /* background-image: url('../../assets/Festive_Delights_divider.png');
+    background-repeat: no-repeat;
+    background-position: top; */
+}
+
+.important-event .title {
+    padding-top: 15px;
+}
+
+.important-event .title p {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.important-event .title h2 {
+    font-weight: 200;
+    line-height: 20px;
+}
+
+.important-event .eimg {
+    position: absolute;
+    z-index: 5;
+    bottom: -88px;
+    margin: 0px auto;
+    width: 100%;
+
+}
+.important-event .impevent{
+    margin-top: 50px;
+}
+
+/* .slidebtn {
+    position: relative;
+    justify-self: right;
+    top: 370px;
+    margin-right: 100px;
+    right: 0;
+} */
+
+.explore {
+    position: relative;
+    height: 540px;
+    width: 100%;
+    background-color: #e4f4fb;
+    ;
+}
+
+.explore .title {
+    padding-top: 40px;
+    z-index: 50;
+}
+
+.explore .title h2 {
+    color: crimson;
+    font-weight: 300;
+    font-size: 2.1em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.explore .bundelhistory {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+
+
+}
+
+.explore .bundelhistory .historycard {
+    text-align: start;
+
+}
+
+.explore .bundelhistory p {
+    text-align: justify;
+    line-height: 2;
+    font-size: 1.2rem;
+    font-weight: 450;
+
+}
+
+.explore .eximg {
+
+    position: absolute;
+    z-index: 5;
+    bottom: -160px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.bundelmap {
+
+    height: 620px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    /* background-image: url('../../assets/tribg2.png');
+    background-repeat: no-repeat;
+    background-position:inherit; */
+}
+
+.bundelmap .container {
+    margin-top: 80px;
+}
+
+.bundelmap .container .map-container,
+.bundelmap .container .title {
+    left: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title .titlemap h2 {
+    font-weight: 200;
+    font-size: 2.1rem;
+    justify-self: left;
+    margin-left: 70px;
+}
+
+.title .titlemap p {
+    font-weight: 600;
+    justify-self: left;
+    margin-left: 70px;
+
+}
+
+.title .titlemap,
+.title .titledist {
+    width: 100%;
+}
+
+.title .titledist p {
+    position: relative;
+    display: block;
+    top: -20px;
+    font-size: 2.8rem;
+    font-weight: 500;
+    width: 200px;
+    justify-self: right;
+    margin-right: 150px;
+    color:  crimson;
+    border-bottom: 1px solid crimson;
+    padding: 10px 15px;
+}
+
+.title .titledist p:hover {
+    color: #e149ae;
+}
+
+.map-container .map {
+    /* background-color: #e149ae; */
+    height: 500px;
+    width: 50%;
+}
+
+.map-container .map .mapsvg path {
+    cursor: pointer;
+    fill: #2d507d;
+    stroke: white;
+    stroke-width: 2px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.map-container .map .mapsvg path:hover {
+    cursor: pointer;
+    fill:  crimson;
+
+}
+
+
+.map-container .map-dist {
+    background-color: transparent;
+    height: 500px;
+    width: 50%;
+}
+
+.map-container .map-dist .mapcard {
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+.mapcard .title{
+    display: flex;
+    color: #000;
+    align-items: center;
+    justify-self: left;
+    font-size: 1.5rem;
+    font-weight: 300;
+
+}
+.mapcard .bio{
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: justify;
+}
+.mapcard .statcic{
+
+
+list-style: none;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    height: auto;
+    overflow: hidden;
+
+}
+.mapcard .statcic li{
+   
+    padding: 10px 10px;
+    border-radius: 4px;
+    background-color: #fbdadd;
+    margin: 3px;
+    font-weight: 500;
+    float: left;
+    box-sizing: border-box;
+    width: auto !important;
+
+}
+.mapreadmore {
+    display: flex;
+justify-self: right;
+}
+/* .slick-arrow.slick-prev{
+    content: "prev";
+    color: crimson;
+
+    font-size: 900 !important;
+    position: relative !important;
+} */
+ /* trip */
+.trip {
+    position: relative;
+    z-index: 1;
+    padding: 100px 0px 100px 0px;
+    display: table;
+    width: 100%;
+    background-image: url(../../assets/tribg3.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+    min-height: 500px;
+}
+
+.trip .tripbg {
+    position: absolute;
+    z-index: 5;
+    top: -20px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.trip .trip-explore {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+    width: 100%;
+
+}
+
+.trip .trip-explore .trip-plan,
+.trip .trip-explore .trip-messege {
+    width: 50%;
+}
+
+.trip .trip-explore .trip-messege {
+    position: relative;
+    margin-right: 150px;
+    position: relative;
+    min-height: 490px;
+    background-image: url(../../assets/tripbg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    box-shadow: rgba(0, 0, 0, 0.99) 0px 0px 45px;
+    transition-duration: 3s;
+    border-radius: 30px;
+    padding: 30px;
+    background-position: 0px -181px;
+    width: 40%;
+    margin-left: 50px;
+
+}
+.trip .trip-explore .trip-messege h2{
+    padding-top: 30%;
+color: rgb(230, 67, 83);
+font-size: 2.1em;
+margin-top: 0px;
+margin-bottom: 25px;
+}
+.trip .trip-explore .trip-messege h5{
+color: rgb(0, 0, 0);
+    font-size: 1.4em;
+}
+.trip .trip-explore .trip-messege p{
+font-size: 1.2em;
+/* text-align: left; */
+}
+
+.trip .trip-explore .trip-plan {
+    position: relative;
+    height: 100%;
+     background-image: url(../../assets/1.jpg);
+background-repeat: no-repeat;
+background-position: center bottom; 
+background-size: cover;
+/*background-size: 120%; */
+}
+
+
+.trip .trip-explore .trip-plan h2 {
+color: rgb(255, 255, 255);
+    font-size: 2.1em;
+    margin-top: 28px;
+    margin-bottom: 25px;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 0px 0px 45px;
+}
+
+/*  */
+.trip .trip-explore .trip-plan .row1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    padding-left: 5px;
+    z-index: 5;
+}
+
+.trip .trip-explore .trip-plan .row1 .box {
+    /* height: 200px;
+    width: 250px; */
+}
+.trip .trip-explore .trip-plan .row1 .box a{
+display: block;
+min-height: 150px;
+font-weight: bold;
+color: rgb(255, 255, 255);
+transition-duration: 0.3s;
+font-size: 1.1em;
+border-width: 3px;
+border-style: solid;
+border-color: rgb(255, 255, 255);
+border-image: initial;
+padding: 15px;
+border-radius: 8px;
+margin: 15px;
+}
+.trip .trip-explore .trip-plan .row1 .box a:hover {
+    background-color: #e64353;
+    border: 3px solid #e64353;
+    box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.99);
+}
+.trip .tripbg2 {
+    position: absolute;
+    z-index: 5;
+    bottom: -4px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+/*  */
+.unfold {
+    position: relative;
+    z-index: 1;
+    display: table;
+    height: 300px;
+    width: 100%;
+    padding: 30PX 0 100PX 0;
+}
+
+.unfold .title {
+    padding-top: 2px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.unfold .title p{
+    font-weight: 400;
+    font-size: 1.2em;
+}
+.unfold .title h2 {
+    font-weight: 300;
+    font-size: 2.1em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.unfold .galary {
+    position: relative;
+    width: 80%;
+    margin-top: 25px;
+    margin: auto;
+}
+
+.content {
+    width: 300px !important;
+    height: 90% !important;
+    position: relative;
+    display: block;
+    border: 4px solid transparent;
+    border-radius: 20px;
+
+}
+
+.galarytitile {
+    position: absolute;
+    width: 290px;
+    top: 160px;
+    height: 30px;
+    margin: auto;
+    opacity: .7;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+
+.galarytitile h3 {
+
+    color: #fff;
+    font-size: 1.8rem;
+    z-index: 5;
+    position: absolute;
+    display: flex;
+    margin-left: 50px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid crimson;
+    cursor: pointer;
+}
+.galarytitile h3.blog{
+    margin-left: 90px;
+}
+
+.unfold .unfoldfbg {
+    position: absolute;
+    z-index: 5;
+    bottom: -80px;
+    margin: 0px auto;
+    width: 100%;
+
+}
+
+/* end galary */
+.connect {
+    position: relative;
+    height: 580px;
+    width: 100%;
+    background-color: #22adfd8d;
+    padding-top: 100px;
+    
+}
+.connect .socialmedia .title{
+color: #fff;
+min-height: 60px;
+text-align: center;
+margin-bottom: 1em;
+}
+
+.connect .socialmedia .socialrow{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+.connect .socialmedia .face{
+width: 126px;
+height: 126px;
+background: #fff;
+display: inherit;
+border-radius: 100%;
+font-size: 60px;
+line-height: 120px;
+
+}
+.connect .socialmedia .face .icon{
+    padding-left: 30px;
+}

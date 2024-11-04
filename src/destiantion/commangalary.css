@@ -1,0 +1,59 @@
+.destnation{
+    width: 100%;
+    height: 100%;
+}
+
+ .destnation .pagetitle{
+    position: absolute;
+    top: 385px;
+    right: 0px;
+    left: 0px;
+    margin: 0px auto;
+    text-align: center;
+}
+.destnation .pagetitle h2{
+    display: inline-block;
+    /* padding: 10px 35px; */
+    color: #081b2a;
+    background-color: #FFF;
+    margin: 0px;
+    min-width: 340px;
+    border-radius: 48px 48px 0px 0px;
+    font-size: 2.1em;
+    font-weight: bold;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.destnation .breadcrump{
+    border-radius: 0px;
+    background-color: #fff;
+    padding: 5px 0px; 
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.destnation .breadcrump .breadcrump-list{
+    font-size: .95em;
+    font-weight: 550;
+    margin:  auto;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    max-width: 1170px;
+}
+.destnation .breadcrump .breadcrump-list span{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.destnation .breadcrump .breadcrump-list .active{
+    color: crimson;
+}
+.galarycontainer{
+    width: 98%;
+    margin:auto ;
+}
+
+.galarycontainer .galary-row{
+    position: relative;
+    margin-top: 60px;
+   
+}

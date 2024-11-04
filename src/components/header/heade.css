@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+   justify-content:space-around; 
+   align-items: center;
+   top: 0;
+   height: 80px;
+   background-color: #fff;
+}
+.navbar .ant-menu-item{
+  background-color: #ffff;
+  padding-left: 10px;
+  font-size: 1.0rem;
+  font-weight: 500;
+  justify-content: center;
+
+}
+.navbar .ant-menu-item:hover,
+.navbar .ant-menu-item-active,
+.navbar .ant-menu-item-selected {
+  /* background-color: violet !important; */
+
+  color: crimson !important;
+
+}
+.navbar .ant-menu-item::after {
+  display: none !important;
+}
+
+.ant-menu-item-selected::after {
+  border-bottom: none !important;
+}

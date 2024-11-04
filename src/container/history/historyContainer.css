@@ -1,0 +1,69 @@
+.bundelculture{
+    width: 100%;
+    height: 100%;
+}
+.bundelhistory{
+    position: relative;
+    display: block;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    margin-top: 40px;
+}
+ .pagetitle{
+    position: absolute;
+    top: 385px;
+    right: 0px;
+    left: 0px;
+    margin: 0px auto;
+    text-align: center;
+}
+.pagetitle h2{
+    display: inline-block;
+    /* padding: 10px 35px; */
+    color: #081b2a;
+    background-color: #FFF;
+    margin: 0px;
+    min-width: 340px;
+    border-radius: 48px 48px 0px 0px;
+    font-size: 2.1em;
+    font-weight: bold;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.breadcrump{
+    border-radius: 0px;
+    background-color: #fff;
+    padding: 5px 0px; 
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.breadcrump .breadcrump-list{
+    font-size: .95em;
+    font-weight: 550;
+    margin:  auto;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    max-width: 1170px;
+}.breadcrump .breadcrump-list span{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.breadcrump .breadcrump-list .active{
+    color: crimson;
+}
+.bundelhistory .historycard h2 {
+    display: flex;
+    justify-items: left;
+    color:crimson;
+    font-size: 30px;
+    font-weight: 300;
+}
+.bundelhistory .historycard p{
+    text-align: justify;
+    padding-left: 50px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+}
