@@ -14,6 +14,11 @@ import img7 from '../../assets/galary.jpeg'
 import img8 from '../../assets/galaryv.jpeg'
 import img9 from '../../assets/connect.jpeg'
 
+import slide1 from '../../assets/slide1.jpg'
+import slide2 from '../../assets/slide2.jpg'
+import slide3 from '../../assets/slide3.jpg'
+import slide4 from '../../assets/slide4.jpg'
+
 import { Link } from 'react-router-dom';
 import { FacebookOutlined, XOutlined, InstagramOutlined, YoutubeOutlined } from '@ant-design/icons';
 const { Meta } = Card;
@@ -143,16 +148,16 @@ const HomeConatiner = () => {
         {/* slidder */}
         <Carousel className='crousel' autoplay style={{ width: "100%", height: "450px" }}>
           <div>
-            <img src={"http://www.bundelkhandtourism.mp.gov.in/uploads/slider/slide-1.jpg"} />
+            <img src={slide1} />
           </div>
           <div>
-            {<img src={"http://www.bundelkhandtourism.mp.gov.in/uploads/slider/slide-3.jpg"} />}
+            {<img src={slide2} />}
           </div>
           <div>
-            <img src={"http://www.bundelkhandtourism.mp.gov.in/uploads/slider/slide-2.jpg"} />
+            <img src={slide3} />
           </div>
           <div>
-            <img src="http://www.bundelkhandtourism.mp.gov.in/uploads/slider/slider-1.jpg" />
+            <img src={slid4} />
           </div>
 
         </Carousel>
