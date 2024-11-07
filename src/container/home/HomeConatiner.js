@@ -169,6 +169,8 @@ const HomeConatiner = () => {
             <img src={img1} width={"100%"} />
           </div> */}
           <div className='container'>
+          <div className='tripbg'><img src={img3} width={"100%"} /></div> {/*containerbg  */}
+         
             <div className='title'>
               <p>News & Updates</p>
               <h2><b>What's New</b> <span>in Bundelkhand?</span></h2>
