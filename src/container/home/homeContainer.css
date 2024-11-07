@@ -5,6 +5,7 @@ body {
 .crousel img {
     height: 100%;
     width: 100%;
+   
 }
 
 .important-event {
@@ -31,7 +32,14 @@ body {
     font-weight: 200;
     line-height: 20px;
 }
+.important-event .eimg1 {
+    position: absolute;
+    z-index: 5;
+    top: -60px;
+    margin: 0px auto;
+    width: 100%;
 
+}
 .important-event .eimg {
     position: absolute;
     z-index: 5;
@@ -57,7 +65,7 @@ body {
     height: 540px;
     width: 100%;
     background-color: #e4f4fb;
-    ;
+    
 }
 
 .explore .title {
@@ -77,13 +85,18 @@ body {
     width: 80%;
     margin: auto;
     margin-top: 50px;
-
+   height: auto;
 
 }
 
 .explore .bundelhistory .historycard {
     text-align: start;
-
+     
+      height: 100%; /* Ensures content fits within the card */
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-between;
+     overflow: hidden;
 }
 
 .explore .bundelhistory p {
@@ -91,6 +104,9 @@ body {
     line-height: 2;
     font-size: 1.2rem;
     font-weight: 450;
+    height: 150px;
+    overflow: hidden;
+    
 
 }
 
@@ -205,21 +221,20 @@ body {
     font-weight: 300;
 
 }
+/*  */
 .mapcard .bio{
     color: #000;
     font-size: 1.1rem;
     font-weight: 400;
     text-align: justify;
+    height: min-content;
 }
 .mapcard .statcic{
-
-
 list-style: none;
     margin: 0px 0px 10px 0px;
     padding: 0px;
     height: auto;
     overflow: hidden;
-
 }
 .mapcard .statcic li{
    
@@ -272,7 +287,7 @@ justify-self: right;
     justify-content: space-evenly;
     /* background-color: aqua; */
     width: 100%;
-
+ overflow: hidden;
 }
 
 .trip .trip-explore .trip-plan,
@@ -492,3 +507,120 @@ line-height: 120px;
 .connect .socialmedia .face .icon{
     padding-left: 30px;
 }
+
+/* media query */
+/* Small screens (sm) */
+@media (max-width: 576px) {
+    p {
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    h2 {
+      font-size: 1.6rem;
+    }
+  
+    h3 {
+      font-size: 1.4rem;
+    }
+    .important-event,.explore {
+        width: 100%;
+        height: max-content;
+        overflow: hidden;
+    }
+    .mapcard .bio{
+        height: 150px;
+        overflow: hidden;
+     }
+     .mapcard .statcic ,.trip-explore .trip-messege ,.connectmessege{
+        display: none;
+         }
+         .trip .trip-explore .trip-plan{
+            background-image: none;
+            position: relative;
+            height: 550px;
+            width: 100%;
+            background-image: url(../../assets/1.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom; 
+            background-size: cover;
+         }
+
+         /* connect */
+     .connect .socialmedia .socialrow{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        width: 100%;
+        justify-content: space-between;
+    }
+     .connect .socialmedia .face{
+        font-size: 80px;
+       margin: 5px;
+        
+        }
+  }
+
+  
+  /* Medium screens (md) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    h3 {
+      font-size: 1.6rem;
+    }
+    .important-event,.explore, .bundelmap ,.trip {
+        width: 100%;
+        height: max-content;
+        overflow: hidden;
+    }
+    .mapcard .bio{
+       height: 152px;
+       text-align: justify;
+       overflow: hidden;
+    }
+    .mapcard .statcic ,.trip-explore .trip-messege ,.connectmessege{
+   display: none;
+    }
+    /* trip */
+    .trip .trip-explore .trip-plan{
+        background-image: none;
+        position: relative;
+        height: 550px;
+        width: 100%;
+        background-image: url(../../assets/1.jpg);
+        background-repeat: no-repeat;
+        background-position: center bottom; 
+        background-size: cover;
+     }
+     /* connect */
+     .connect .socialmedia .socialrow{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        width: 100%;
+        justify-content: space-between;
+    }
+     .connect .socialmedia .face{
+        font-size: 80px;
+       margin: 50px;
+        
+        }
+   
+  }
+  
