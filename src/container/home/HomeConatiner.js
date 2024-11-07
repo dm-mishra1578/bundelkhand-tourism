@@ -146,22 +146,23 @@ const HomeConatiner = () => {
     <>
       <Layout>
         {/* slidder */}
-        <Carousel className='crousel' autoplay style={{ width: "100%", height: "450px" }}>
-          <div>
-            <img src={slide1} />
-          </div>
-          <div>
-            {<img src={slide2} />}
-          </div>
-          <div>
-            <img src={slide3} />
-          </div>
-          <div>
-            <img src={slide4} />
-          </div>
+        <div className='carouselslide'>
+          <Carousel className='crousel' autoplay style={{ width: "100%", height: "450px" }}>
+            <div>
+              <img src={slide1} />
+            </div>
+            <div>
+              {<img src={slide2} />}
+            </div>
+            <div>
+              <img src={slide3} />
+            </div>
+            <div>
+              <img src={slide4} />
+            </div>
 
-        </Carousel>
-
+          </Carousel>
+        </div>
         {/* events imp */}
         <section className='important-event'>
           {/* <div className='eimg1'>

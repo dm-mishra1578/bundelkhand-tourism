@@ -584,19 +584,27 @@ line-height: 120px;
     h3 {
       font-size: 1.6rem;
     }
+    /*  */
+    .important-event{
+        background-color: rgb(248, 168, 9);
+            }
     .important-event,.explore, .bundelmap ,.trip {
         width: 100%;
         height: max-content;
         overflow: hidden;
     }
+    /*  */
     .mapcard .bio{
        height: 152px;
        text-align: justify;
        overflow: hidden;
     }
+
+
     .mapcard .statcic ,.trip-explore .trip-messege ,.connectmessege{
    display: none;
     }
+
     /* trip */
     .trip .trip-explore .trip-plan{
         background-image: none;
