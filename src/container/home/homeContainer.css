@@ -13,6 +13,7 @@ body {
     height: 680px;
     width: 100%;
     background-color: #e149ae;
+    display: table;
     
     /* background-image: url('../../assets/Festive_Delights_divider.png');
     background-repeat: no-repeat;
@@ -508,6 +509,8 @@ line-height: 120px;
     padding-left: 30px;
 }
 
+
+
 /* media query */
 /* Small screens (sm) */
 @media (max-width: 576px) {
@@ -564,6 +567,7 @@ line-height: 120px;
         
         }
   }
+  
 
   
   /* Medium screens (md) */
